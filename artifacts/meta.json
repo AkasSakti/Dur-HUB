@@ -1,0 +1,9 @@
+{
+  "best_model_name": "transfer",
+  "best_model_accuracy": 0.6296296296296297,
+  "img_size": [
+    224,
+    224
+  ],
+  "num_classes": 5
+}
