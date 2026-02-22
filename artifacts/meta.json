@@ -1,6 +1,6 @@
 {
   "best_model_name": "transfer",
-  "best_model_accuracy": 0.6296296296296297,
+  "best_model_accuracy": 0.7325842696629213,
   "img_size": [
     224,
     224
