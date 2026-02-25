@@ -1,9 +1,21 @@
 {
-  "best_model_name": "transfer",
-  "best_model_accuracy": 0.7655842696629213,
+  "best_model_name": "transfer_tta",
+  "best_model_accuracy": 0.7660753880266076,
   "img_size": [
     224,
     224
   ],
-  "num_classes": 5
+  "num_classes": 5,
+  "model_format": "saved_model",
+  "export_dir": "/content/drive/MyDrive/Colab Notebooks/widuri/artifacts/best_model_savedmodel",
+  "selection_policy": "forced_transfer_for_research_consistency",
+  "base_model_name": "transfer",
+  "base_model_accuracy": 0.7405764966740577,
+  "deployment_policy": "tta_hflip_vflip_avg",
+  "tta_enabled": true,
+  "tta_transforms": [
+    "identity",
+    "flip_left_right",
+    "flip_up_down"
+  ]
 }
